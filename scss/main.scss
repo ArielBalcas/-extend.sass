@@ -1,0 +1,353 @@
+body {
+    background-color: #ecebec;
+}
+
+header {
+    background-color: #39043b;
+
+    font-size: 13px;
+}
+
+.barra {
+    display: flex;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #39043b;
+}
+
+
+.parrafo {
+    display: flex;
+    align-items: center;
+    margin-left: 280px;
+
+    max-width: 60%;
+}
+
+#buscador {
+
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    width: 940px;
+    margin-left: 70px;
+
+}
+
+.barra1 {
+    background-color: #39043b;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.btnn {
+    width: 150px;
+    height: 40px;
+    outline: none;
+    background-color: #39043b;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.barra1 {
+    background-color: #39043b;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagen1 {
+
+    color: #ffffff;
+}
+
+
+
+.titulo {
+    font-size: 40px;
+    // font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: rgb(14, 14, 14);
+}
+
+.subtitulo {
+    margin: 0;
+    color: rgb(2, 1, 1);
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* carousel club */
+
+
+
+.sabor {
+    color: white;
+    margin: 7px 0;
+    font-size: 80px;
+    font-weight: 1000;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+    font-size: 250%;
+
+
+}
+
+.imagen1 {
+
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen {
+    width: 100%;
+    background-color: #ecebec;
+    display: flex;
+    justify-content: center;
+}
+
+/* imagen 2 */
+.imgz {
+    max-width: 98%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgz {
+    width: 98%;
+    background-color: #ecebec;
+    margin-left: 10px;
+}
+
+.imgz:hover {
+    transform: scale(1.01);
+    box-shadow: 0 5px 45px rgb(255, 255, 255);
+    color: rgb(12, 10, 10);
+
+    border-radius: 10px;
+}
+
+.linea-division {
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+}
+
+.carousel {
+    min-height: 500px;
+    max-width: 100%;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    user-select: none;
+
+
+    width: 300px;
+    height: 400px;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 10px;
+
+}
+
+.carousel-item:hover {
+    transform: scale(1.50);
+    box-shadow: 0 5px 45px rgb(255, 255, 255);
+    color: rgb(12, 10, 10);
+
+    border-radius: 10px;
+}
+
+.carousel .indicators .indicator-item {
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 10 15px;
+    background: rgb(0, 0, 0);
+
+    width: 14px;
+    height: 14px;
+}
+
+/*main  */
+main {
+    background-color: #ecebec;
+}
+
+.carusell {
+    background-color: #ecebec;
+}
+
+/* Footer */
+footer {
+    background-color: #39043b
+}
+
+.row {
+    background-color: #ecebec;
+}
+
+.barra2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 25px;
+    background-color: #39043b;
+}
+
+
+
+.btnnn {
+    font-size: 90%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.parafo_final {
+    font-size: 90%;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 70px;
+
+}
+
+/* tabla */
+
+
+
+#main-container {
+    margin: 0px auto;
+    width: 600px;
+}
+
+table {
+    background-color: white;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+thead {
+    background-color: #39043b;
+    border-bottom: solid 5px #ffffff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+
+tr:hover td {
+    background-color: #39043b;
+    color: white;
+}
+
+
+
+/* img tabla */
+.escudopng {
+    gap: 15px;
+    margin-right: 5px;
+
+}
+
+
+/* card-img */
+.card-img {
+    max-height: 300px;
+}
+
+.card-title1 {
+    font-size: 210px;
+    // font-family: 'Dancing Script', cursive;
+}
+
+
+
+#ultimocampeon {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+#ultimocampeon1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+// exted
+.imgpremier {
+    @extend .imgpremier11
+}
+
+.cursive {
+    font-family: 'Dancing Script', cursive;
+}
+
+.titulo,
+#ultimocampeon1 {
+    @extend .cursive
+}
+
+.card-title {
+    @extend .cursive
+}
+
+.imgpremier11 {
+    padding-top: 2px;
+    width: 300px;
+    margin-left: 150px;
+}
+
+.premier {
+    // width: 160px;
+    margin-left: 1300px;
+    margin-top: -80px;
+}
+
+
+.imgpng {
+    padding-top: 2px;
+
+    // width: 185px;
+
+    border-radius: 30%;
+    margin-left: 47px;
+}
+
+
+.img-de-lapremier {
+    width: 185px;
+}
+
+.imgpng,
+.premier {
+    @extend .img-de-lapremier
+}
