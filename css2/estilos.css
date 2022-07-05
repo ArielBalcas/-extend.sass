@@ -1,0 +1,519 @@
+
+body{background-color: #ecebec;}
+
+header{background-color:  #39043b ;
+    
+font-size: 13px;}
+.card-title{font-size: 74px;}
+
+/* barra */
+.barra{display: flex;
+padding-top: 20px;
+position: sticky;
+	top: 0;
+	z-index: 10;
+    background-color:  #39043b ;}
+.imgpng {padding-top: 2px;
+    
+    width: 185px;
+    
+    border-radius: 30%;
+    margin-left: 47px;
+}
+
+
+#buscador{
+    
+    color: rgb(0, 0, 0);
+background-color: #fff; width: 940px;
+margin-left: 70px;
+
+}
+
+.barra1 {
+    background-color:  #39043b ;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+/* fin de la barra */
+.parrafo{display: flex;
+    align-items: center;
+    margin-left: 280px;
+ 
+max-width: 60%;}
+.btnn {
+    width: 150px;
+    height: 40px;
+    outline: none;
+    background-color:  #39043b ;
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.barra1 {
+    background-color:  #39043b ;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagen1{
+    
+    color: #ffffff ;}
+
+
+
+.titulo {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 40px;
+    color: rgb(14, 14, 14);
+}
+
+.subtitulo {
+    margin: 0;
+    color: rgb(2, 1, 1);
+    display: inline;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* carousel club */
+
+
+
+.sabor { 
+    color:white;
+    margin: 7px 0;
+    font-size: 80px;
+    font-weight:1000;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+    font-size: 250%;
+   
+    
+}
+
+.imagen1{
+    
+    max-width: 100%;
+display: flex;
+justify-content: center;}
+
+    .imagen{width: 100%;
+        background-color: #ecebec;
+        display: flex;
+        justify-content: center;}
+/* imagen 2 */
+        .imgz{
+     max-width: 100%;
+    display: flex;
+    justify-content:center;}
+            .imgz{width: 98%;
+                background-color: #ecebec;
+            margin-left: 10px;}
+
+                .imgz:hover{transform: scale(1.01);
+                    box-shadow: 0 5px 45px rgb(21, 13, 13);
+                    color: rgb(255, 255, 255);
+                    
+                border-radius: 1px;}
+
+.linea-division {
+    width: 100%;
+    height: 4px;
+    background-color: #ffffff;
+}
+
+.carousel {
+    min-height: 500px;
+    max-width: 100%;
+}
+
+.carousel .carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    user-select: none;
+    
+    
+    width: 300px;
+    height: 400px;
+}
+
+.carousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 10px;
+
+}
+.carousel-item:hover{transform: scale(1.50);
+    box-shadow: 0 5px 45px #000000;
+    color: rgb(0, 0, 0);
+    
+border-radius: 10px;}
+
+.carousel .indicators .indicator-item{ 
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 10 15px;
+    background: rgb(0, 0, 0);
+    
+    width: 14px;
+    height: 14px;
+}
+
+/*main  */
+main {
+    background-color: #ecebec;
+}
+
+.carusell{ background-color: #ecebec;}
+
+/* Footer */
+footer {
+    background-color: #39043b
+}
+.row{background-color: #ecebec;}
+.barra2 {
+    display: flex;
+    justify-content:center;
+    gap: 50px;
+    font-size: 25px;
+    background-color: #39043b;
+}
+
+.premier{width: 160px;
+margin-left: 1300px;
+margin-top: -80px; }
+
+.btnnn {
+    font-size: 90%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.parafo_final {
+    font-size: 90%;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 70px;
+    
+}
+
+/* tabla */
+
+
+
+#main-container{
+	margin-left: 500px;
+
+	width: 500px;
+}
+
+table{
+	background-color: rgb(255, 255, 255);
+	text-align: left;
+	border-collapse: collapse ;
+	width: 100%;
+}
+
+th, td{
+	padding: 1px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 0%;
+    max-width: 100px;
+    
+}
+
+
+
+thead{
+	background-color: #39043b;
+	border-bottom: solid 5px #39043b;
+	color: white;
+    border-radius: #39043b;
+    
+}
+th{background-color: #39043b;}
+
+tr:nth-child(even){
+	background-color: rgb(255, 255, 255);
+}
+
+tr:hover td{
+	background-color:#39043b;
+	color: white;
+    border-bottom:solid #39043b;
+}
+
+
+
+
+
+/* card-img */
+.card-img{max-height: 300px;}
+
+.card-title{font-size: 210px;
+    font-family: 'Dancing Script', cursive;}
+
+    .imgpremier{padding-top: 2px;
+    
+        width: 300px;
+        
+        margin-left: 90px;
+        border-radius: 15px;
+    }
+    /* tabla de equipos alineacion */
+    .equipo-tabla{display: flex;}
+    .escudopng{margin-top: 13px;}
+    /* tabla de equipos alineacion  final*/
+    
+    .tabla-de-color{background-color: #39043b;}
+#tabla{color: white;}
+    #ultimocampeon{display: flex;
+    justify-content: center;
+margin-left: 200px;}
+
+#ultimocampeon1{display: flex;
+    justify-content: center;
+margin-right: 15px;}
+
+
+
+@media screen  and (max-width:800px) {
+/* Footer */
+footer {
+    background-color: #39043b
+}
+.row{background-color: #ecebec;}
+.barra2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    background-color: #39043b;
+}
+
+.premier{width: 160px;
+margin-left: 310px;
+margin-top: -109px; }
+
+.btnnn {
+    font-size: 90%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.parafo_final {
+    font-size: 90%;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+    padding: 10px;
+    
+}
+
+
+.barra2 {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1contenido máximo;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 10px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ."
+      ". ."
+      ". .";
+      margin-left: 100px;
+  }
+  .barra1 {
+    background-color:  #39043b ;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.barra1 {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1contenido máximo;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr ;
+    gap: 10px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". ."
+      ". ."
+      ". .";
+      margin-left: 80px;
+  }
+
+
+
+/* barra */
+.barra{display: flex;
+    padding-top: 20px;
+    position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color:  #39043b ;}
+    .imgpng {padding-top: 2px;
+        
+        width: 185px;
+        
+        border-radius: 30%;
+        margin-left: 10px;
+    }
+    
+    
+    #buscador{
+        
+        color: rgb(0, 0, 0);
+    background-color: #fff; width: 220px;
+    margin-left: 30px;
+    
+    }
+    
+    
+    /* fin de la barra */
+
+
+    /* tabla */
+
+
+
+#main-container{
+	margin-left: 0px;
+
+	width: 480px;
+}
+
+table{
+	background-color: rgb(255, 255, 255);
+	text-align: left;
+	border-collapse: collapse ;
+	width: 100%;
+}
+
+th, td{
+	padding: 1px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 0%;
+    max-width: 100px;
+    
+}
+
+
+
+thead{
+	background-color: #39043b;
+	border-bottom: solid 5px #39043b;
+	color: white;
+    border-radius: #39043b;
+    
+}
+th{background-color: #39043b;}
+
+tr:nth-child(even){
+	background-color: rgb(255, 255, 255);
+}
+
+tr:hover td{
+	background-color:#39043b;
+	color: white;
+    border-bottom:solid #39043b;
+}
+
+
+
+
+
+/* card-img */
+.card-img{max-height: 300px;}
+
+.card-title{font-size: 210px;
+    font-family: 'Dancing Script', cursive;}
+
+    .imgpremier{padding-top: 2px;
+    
+        width: 300px;
+        
+        margin-left: 90px;
+        border-radius: 15px;
+    }
+    /* tabla de equipos alineacion */
+    .equipo-tabla{display: flex;}
+    .escudopng{margin-top: 13px;}
+    /* tabla de equipos alineacion  final*/
+    
+    .tabla-de-color{background-color: #39043b;}
+#tabla{color: white;}
+    #ultimocampeon{display: flex;
+    justify-content: center;
+margin-left: 2px;}
+
+#ultimocampeon1{display: flex;
+    justify-content: center;
+margin-right: 15px;}
+
+/* imagen 2 */
+.imgz{
+    max-width: 100%;
+   display: flex;
+   justify-content:center;}
+           .imgz{width: 98%;
+               background-color: #ecebec;
+           margin-left: 4px;}
+
+
+           /* comienzo */
+    #ultimocampeon1{font-size: 25px;
+    display: flex;}
+    .parrafo{display: flex;
+        align-items: center;
+        margin-left:10px ;
+        max-width: 100%;}
+
+
+        .card-title{font-size: 10px;}
+}
+
+
+@media screen  and (max-width:1500px) {
+
+    #main-container{
+    
+        
+        margin-left: 0px;
+    
+        width: 480px;
+    }
+
+    .premier{width: 160px;
+        margin-left: 310px;
+        margin-top: -109px; }
+        #buscador{
+        
+            color: rgb(0, 0, 0);
+        background-color: #fff; width: 620px;
+        margin-left: 80px;
+        
+        }
+    
+}
