@@ -557,7 +557,9 @@ tr:hover td {
     grid-auto-rows: 1fr;
     gap: 10px 20px;
     grid-auto-flow: row;
-    grid-template-areas: ". ." ". ." ". .";
+    grid-template-areas: ". ."
+ ". ."
+ ". .";
     margin-left: 100px; }
   .barra1 {
     background-color: #39043b;
@@ -572,7 +574,9 @@ tr:hover td {
     grid-auto-rows: 1fr;
     gap: 10px 20px;
     grid-auto-flow: row;
-    grid-template-areas: ". ." ". ." ". .";
+    grid-template-areas: ". ."
+ ". ."
+ ". .";
     margin-left: 80px; }
   /* barra */
   .barra {
@@ -730,7 +734,7 @@ tr:hover td {
   height: 100px; }
 
 /* totteham */
-.barra2 {
+.barra2s {
   display: flex;
   padding-top: 20px;
   position: sticky;
@@ -1726,4 +1730,9 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1contenido máximo 1fr 1fr;
   gap: 0px 0px;
-  grid-template-areas: ". ." ". ." ". ." ". ." ". ." ". ."; }
+  grid-template-areas: ". ."
+ ". ."
+ ". ."
+ ". ."
+ ". ."
+ ". ."; }
