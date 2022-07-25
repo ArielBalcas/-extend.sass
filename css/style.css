@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #ecebec; }
 
@@ -5,7 +6,7 @@ header {
   background-color: #39043b;
   font-size: 13px; }
 
-.barra {
+.barrav {
   display: flex;
   padding-top: 20px;
   position: sticky;
@@ -25,7 +26,7 @@ header {
   width: 940px;
   margin-left: 70px; }
 
-.barra1 {
+.barra1v {
   background-color: #39043b;
   text-decoration: none;
   display: flex;
@@ -153,13 +154,13 @@ main {
   background-color: #ecebec; }
 
 /* Footer */
-footer {
+.footerv {
   background-color: #39043b; }
 
 .row {
   background-color: #ecebec; }
 
-.barra2 {
+.barra2v {
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -247,3 +248,1482 @@ tr:hover td {
 .img-de-lapremier, .imgpng,
 .premier {
   width: 185px; }
+
+body {
+  background-color: #ecebec; }
+
+header {
+  background-color: #39043b;
+  font-size: 13px; }
+
+.card-title {
+  font-size: 74px; }
+
+/* barra */
+.barra {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #39043b; }
+
+.imgpng {
+  padding-top: 2px;
+  width: 185px;
+  border-radius: 30%;
+  margin-left: 47px; }
+
+#buscador {
+  color: black;
+  background-color: #fff;
+  width: 940px;
+  margin-left: 70px; }
+
+.barra1 {
+  background-color: #39043b;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around; }
+
+/* fin de la barra */
+.parrafo {
+  display: flex;
+  align-items: center;
+  margin-left: 280px;
+  max-width: 60%; }
+
+.btnn {
+  width: 150px;
+  height: 40px;
+  outline: none;
+  background-color: #39043b;
+  border-radius: 6px;
+  color: white;
+  margin: auto;
+  position: relative;
+  text-transform: uppercase; }
+
+.barra1 {
+  background-color: #39043b;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around; }
+
+.imagen1 {
+  color: #ffffff; }
+
+.titulo {
+  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  margin-bottom: 40px;
+  color: #0e0e0e; }
+
+.subtitulo {
+  margin: 0;
+  color: #020101;
+  display: inline;
+  font-size: 50px;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+/* carousel club */
+.sabor {
+  color: white;
+  margin: 7px 0;
+  font-size: 80px;
+  font-weight: 1000;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.7);
+  font-family: 'Dancing Script', cursive;
+  margin-top: 0;
+  font-size: 250%; }
+
+.imagen1 {
+  max-width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.imagen {
+  width: 100%;
+  background-color: #ecebec;
+  display: flex;
+  justify-content: center; }
+
+/* imagen 2 */
+.imgz {
+  max-width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.imgz {
+  width: 98%;
+  background-color: #ecebec;
+  margin-left: 10px; }
+
+.imgz:hover {
+  transform: scale(1.01);
+  box-shadow: 0 5px 45px #150d0d;
+  color: white;
+  border-radius: 1px; }
+
+.linea-division {
+  width: 100%;
+  height: 4px;
+  background-color: #ffffff; }
+
+.carousel {
+  min-height: 500px;
+  max-width: 100%; }
+
+.carousel .carousel-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  user-select: none;
+  width: 300px;
+  height: 400px; }
+
+.carousel .carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 10px; }
+
+.carousel-item:hover {
+  transform: scale(1.5);
+  box-shadow: 0 5px 45px #000000;
+  color: black;
+  border-radius: 10px; }
+
+.carousel .indicators .indicator-item {
+  border-radius: 0;
+  transform: rotate(45deg);
+  margin: 10 15px;
+  background: black;
+  width: 14px;
+  height: 14px; }
+
+/*main  */
+main {
+  background-color: #ecebec; }
+
+.carusell {
+  background-color: #ecebec; }
+
+/* Footer */
+footer {
+  background-color: #39043b; }
+
+.row {
+  background-color: #ecebec; }
+
+.barra2 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-color: #39043b; }
+
+.premier {
+  width: 160px;
+  margin-left: 1300px;
+  margin-top: -80px; }
+
+.btnnn {
+  font-size: 90%;
+  text-decoration: none;
+  color: #ffffff; }
+
+.parafo_final {
+  font-size: 90%;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 70px; }
+
+/* tabla */
+#main-container {
+  margin-left: 0px;
+  padding: 10px;
+  width: 1200px; }
+
+table {
+  background-color: white;
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%; }
+
+th,
+td {
+  padding: 5.7px;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 0%;
+  max-width: 100px; }
+
+thead {
+  background-color: #39043b;
+  border-bottom: solid 5px #39043b;
+  color: white;
+  border-radius: #39043b; }
+
+th {
+  background-color: #39043b; }
+
+tr:nth-child(even) {
+  background-color: white; }
+
+tr:hover td {
+  background-color: #39043b;
+  color: white;
+  border-bottom: solid #39043b; }
+
+/* card-img */
+.card-img {
+  max-height: 300px; }
+
+.card-title {
+  font-size: 210px;
+  font-family: 'Dancing Script', cursive; }
+
+.imgpremier {
+  padding-top: 16px;
+  width: 300px;
+  margin-left: 90px;
+  border-radius: 15px; }
+
+/* tabla de equipos alineacion */
+.equipo-tabla {
+  display: flex; }
+
+.escudopng {
+  margin-top: 12px; }
+
+.equipo {
+  padding-top: 12px; }
+
+/* tabla de equipos alineacion  final*/
+.tabla-de-color {
+  background-color: #39043b; }
+
+#tabla {
+  color: white; }
+
+#ultimocampeon {
+  display: flex;
+  justify-content: center;
+  margin-left: 200px; }
+
+#ultimocampeon1 {
+  display: flex;
+  justify-content: center;
+  margin-right: 15px; }
+
+@media screen and (max-width: 800px) {
+  /* Footer */
+  footer {
+    background-color: #39043b; }
+  .row {
+    background-color: #ecebec; }
+  .barra2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+    background-color: #39043b; }
+  .premier {
+    width: 160px;
+    margin-left: 310px;
+    margin-top: -109px; }
+  .btnnn {
+    font-size: 90%;
+    text-decoration: none;
+    color: #ffffff; }
+  .parafo_final {
+    font-size: 90%;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+    padding: 10px; }
+  .barra2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1contenido máximo;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 10px 20px;
+    grid-auto-flow: row;
+    grid-template-areas: ". ." ". ." ". .";
+    margin-left: 100px; }
+  .barra1 {
+    background-color: #39043b;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around; }
+  .barra1v {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1contenido máximo;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 10px 20px;
+    grid-auto-flow: row;
+    grid-template-areas: ". ." ". ." ". .";
+    margin-left: 80px; }
+  /* barra */
+  .barra {
+    display: flex;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #39043b; }
+  .imgpng {
+    padding-top: 2px;
+    width: 185px;
+    border-radius: 30%;
+    margin-left: 10px; }
+  #buscador {
+    color: black;
+    background-color: #fff;
+    width: 220px;
+    margin-left: 30px; }
+  /* fin de la barra */
+  /* tabla */
+  #main-container {
+    width: 400px; }
+  table {
+    background-color: white;
+    margin-right: 500px;
+    border-collapse: collapse;
+    width: 100%; }
+  th,
+  td {
+    padding: 1px;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 0%;
+    max-width: 100px; }
+  thead {
+    background-color: #39043b;
+    border-bottom: solid 5px #39043b;
+    color: white;
+    border-radius: #39043b; }
+  th {
+    background-color: #39043b; }
+  tr:nth-child(even) {
+    background-color: white; }
+  tr:hover td {
+    background-color: #39043b;
+    color: white;
+    border-bottom: solid #39043b; }
+  /* card-img */
+  .card-img {
+    max-height: 300px; }
+  .card-title {
+    font-size: 210px;
+    font-family: 'Dancing Script', cursive; }
+  .imgpremier {
+    padding-top: 2px;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 15px; }
+  /* tabla de equipos alineacion */
+  .equipo-tabla {
+    display: flex; }
+  .escudopng {
+    margin-top: 10px; }
+  /* tabla de equipos alineacion  final*/
+  .tabla-de-color {
+    background-color: #39043b; }
+  #tabla {
+    color: white; }
+  #ultimocampeon {
+    display: flex;
+    justify-content: center;
+    margin-left: 2px; }
+  #ultimocampeon1 {
+    display: flex;
+    justify-content: center;
+    margin-right: 15px; }
+  /* imagen 2 */
+  .imgz {
+    max-width: 100%;
+    display: flex;
+    justify-content: center; }
+  .imgz {
+    width: 98%;
+    background-color: #ecebec;
+    margin-left: 4px; }
+  /* comienzo */
+  #ultimocampeon1 {
+    font-size: 25px;
+    display: flex; }
+  .parrafo {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    max-width: 100%; }
+  .card-title {
+    font-size: 10px; } }
+
+@media screen and (max-width: 1500px) {
+  #main-container {
+    margin-left: 0px;
+    width: 480px; }
+  .premier {
+    width: 160px;
+    margin-left: 20px;
+    margin-top: -109px; }
+  #buscador {
+    color: black;
+    background-color: #fff;
+    width: 620px;
+    margin-left: 80px; } }
+
+.main-container {
+  display: flex; }
+
+.containertable {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; }
+
+.todomastabla {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+  width: 80%;
+  margin-left: 170px; }
+
+#texto:hover {
+  background-color: #39043b;
+  color: white;
+  border-bottom: solid #39043b; }
+
+.portugal {
+  height: 30px; }
+
+/* manchester */
+.barra {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #9b0404;
+  height: 100px; }
+
+/* city */
+.barra1 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #5c83a3;
+  height: 100px; }
+
+/* totteham */
+.barra2 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #041c5a;
+  height: 100px; }
+
+/* chelsea*/
+.barra3 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #040496;
+  height: 100px; }
+
+.barra3_1 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #043c9b;
+  height: 100px; }
+
+.barra4 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #60223b;
+  height: 100px; }
+
+.barra5 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #b3141b;
+  height: 100px; }
+
+.barra6 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #ab040b;
+  height: 100px; }
+
+.barra7 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #9c0607;
+  height: 100px; }
+
+.barra8 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #cc0404;
+  height: 100px; }
+
+.barra9 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #8c141c;
+  height: 100px; }
+
+.barra10 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #0b59a0;
+  height: 100px; }
+
+.barra11 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-image: linear-gradient(-45deg, #04246b 50%, #8c141b 50%);
+  height: 100px; }
+
+.barra12 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #1c2c54;
+  height: 100px; }
+
+.barra13 {
+  display: flex;
+  padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-image: linear-gradient(-45deg, #040404 50%, #cc8c04 50%);
+  height: 100px; }
+
+.imgpng {
+  padding-top: 2px;
+  width: 185px;
+  border-radius: 30%;
+  margin-left: 47px; }
+
+#buscador {
+  color: black;
+  background-color: #fff;
+  width: 940px;
+  margin-left: 70px;
+  height: 50px; }
+
+/* galeri */
+.gallery {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery__img::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img:nth-child(1) {
+  background-image: url(https://www.dreamteamfc.com/c/wp-content/uploads/sites/4/2018/07/NINTCHDBPICT000408657236.jpg?strip=all&w=511&quality=100); }
+
+.gallery__img:nth-child(2) {
+  background-image: url(https://th.bing.com/th/id/OIP.fBhtKa4cO2WYhiyxSY0rGwHaKM?pid=ImgDet&rs=1); }
+
+.gallery__img:nth-child(3) {
+  background-image: url(https://i.pinimg.com/736x/38/c8/70/38c870896edc71e385b7e0277b5d859f.jpg); }
+
+.gallery__img:nth-child(4) {
+  background-image: url(https://th.bing.com/th/id/R.7b7bdcaea79fbf0e22a0bcfa820ba914?rik=H3PpFZBoq4IDDg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f9%2f6%2f2%2f725820-widescreen-cr7-wallpaper-1080x1920.jpg&ehk=NcJnOgh7dDRPAmFhjchH59U1AWR9%2bcj3TccIbYpGtnI%3d&risl=&pid=ImgRaw&r=0); }
+
+/* galeri kevin */
+.gallery1 {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img1 {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery1__img1::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img1:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img1:nth-child(1) {
+  background-image: url(https://images2.minutemediacdn.com/image/fetch/w_2000,h_2000,c_fit/https:%2F%2Fmancitysquare.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2017%2F08%2F826372686-manchester-city-v-west-ham-united-pre-season-friendly.jpg.jpg); }
+
+.gallery__img1:nth-child(2) {
+  background-image: url(https://th.bing.com/th/id/OIP.Dg3BdTmB4eRTy5nTrTOLlgHaJ3?pid=ImgDet&rs=1); }
+
+.gallery__img1:nth-child(3) {
+  background-image: url(https://i1.wp.com/metro.co.uk/wp-content/uploads/2015/04/1092x14001.jpg?quality=90&strip=all&zoom=1&resize=1024%2C1313&ssl=1); }
+
+.gallery__img1:nth-child(4) {
+  background-image: url(https://th.bing.com/th/id/OIP.ykaAUnfqGx01TtpUJICZ-gHaJw?pid=ImgDet&w=1555&h=2048&rs=1); }
+
+/* fin de kevin */
+/* galeri son */
+.gallery2 {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img2 {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery1__img2::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img2:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img2:nth-child(1) {
+  background-image: url(https://th.bing.com/th/id/OIP.OHqTktilQF7Io9neziXl6gHaKa?pid=ImgDet&rs=1); }
+
+.gallery__img2:nth-child(2) {
+  background-image: url(https://th.bing.com/th/id/R.2d625c6b9fee084b6fdabfb31a56f909?rik=30DjjYSiPods5w&riu=http%3a%2f%2fmedia.gettyimages.com%2fphotos%2fson-heungmin-of-leverkusen-in-action-during-the-first-leg-of-the-uefa-picture-id453866356&ehk=3Xjwgv1oTUe8JV4okHwimCgLwgg3aZUMatXRK9%2foOfs%3d&risl=&pid=ImgRaw&r=0); }
+
+.gallery__img2:nth-child(3) {
+  background-image: url(https://th.bing.com/th/id/R.5d8665b8383d5f3abc7ee42d01b47010?rik=bWL1gCaMTTJr9g&riu=http%3a%2f%2fstatic.goal.com%2f118500%2f118573_gallery.jpg&ehk=3GYJKk2AqNaUPVAj0hcZXBWK4Ik2AarvCdVB97l7ZOA%3d&risl=&pid=ImgRaw&r=0); }
+
+.gallery__img2:nth-child(4) {
+  background-image: url(https://th.bing.com/th/id/OIP.gO2ucjjvQ_xp6aGcMmnOagHaHa?pid=ImgDet&w=1200&h=1200&rs=1); }
+
+/* fin de son */
+/* galeri Kante */
+.gallery3 {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img3 {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery1__img3::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img3:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img3:nth-child(1) {
+  background-image: url(https://cdn.mos.cms.futurecdn.net/dvLKRKvjqhhpr7woQraGZ-1200-80.jpg); }
+
+.gallery__img3:nth-child(2) {
+  background-image: url(https://i.pinimg.com/originals/43/1a/0c/431a0c2e1b014c81849b27d6a10631ee.jpg); }
+
+.gallery__img3:nth-child(3) {
+  background-image: url(https://www.dreamteamfc.com/c/wp-content/uploads/sites/4/2018/09/NINTCHDBPICT000173876359.jpg?strip=all&w=640&quality=100); }
+
+.gallery__img3:nth-child(4) {
+  background-image: url(https://i.pinimg.com/originals/8b/fa/23/8bfa23ac95d4ea2ffcc899563e8c6cbb.png); }
+
+/* fin de son */
+/* galeri salah */
+.gallery4 {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img4 {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery1__img4::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img4:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img4:nth-child(1) {
+  background-image: url(https://i.pinimg.com/originals/bf/4b/3b/bf4b3b5c5d96265ef33769234cd3ea57.jpg); }
+
+.gallery__img4:nth-child(2) {
+  background-image: url(https://th.bing.com/th/id/R.add127c9cc3964af3273b732cfa24e33?rik=6zsJgOuz6Rv2jw&pid=ImgRaw&r=0); }
+
+.gallery__img4:nth-child(3) {
+  background-image: url(https://th.bing.com/th/id/OIP.MKOM2MotgajLfOHQKskeAAHaJD?pid=ImgDet&rs=1); }
+
+.gallery__img4:nth-child(4) {
+  background-image: url(https://i.pinimg.com/736x/66/6c/f3/666cf3e8ef201ccbf8a9c91efe094396.jpg); }
+
+/* fin de salah */
+/* vardy */
+.gallery5 {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img5 {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery1__img5::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img5:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img5:nth-child(1) {
+  background-image: url(https://cdn.images.express.co.uk/img/dynamic/67/590x/secondary/Jamie-Vardy-402397.jpg); }
+
+.gallery__img5:nth-child(2) {
+  background-image: url(https://media.gettyimages.com/photos/jamie-vardy-of-fleetwood-town-in-action-during-the-blue-square-bet-picture-id519348562); }
+
+.gallery__img5:nth-child(3) {
+  background-image: url(https://th.bing.com/th/id/R.441d9da5a057f775462b8e6f3be09339?rik=y6t1IhctsfBCMA&riu=http%3a%2f%2fi.dailymail.co.uk%2fi%2fpix%2f2016%2f06%2f27%2f17%2f359FEDFE00000578-3662084-image-m-19_1467044955080.jpg&ehk=K%2brxMdjT%2fePn4%2bb%2fAZ8CVJS6l%2fyRZ1ns9%2bcG0Ybz6Kk%3d&risl=&pid=ImgRaw&r=0); }
+
+.gallery__img5:nth-child(4) {
+  background-image: url(https://th.bing.com/th/id/OIP.NnXiR9VIGLeMgmSGvw4e2QHaLZ?pid=ImgDet&w=650&h=1000&rs=1); }
+
+/*fin de vardy */
+/* magalaes */
+.gallery6 {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img6 {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery__img6::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img6:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img6:nth-child(1) {
+  background-image: url(https://arsenaljournal.com/wp-content/uploads/2020/08/Gabriel-Magalh%C3%A3es.jpg); }
+
+.gallery__img6:nth-child(2) {
+  background-image: url(https://th.bing.com/th/id/OIP.CSnqP6lq6tgt-A5OT4AGdgHaJc?pid=ImgDet&rs=1); }
+
+.gallery__img6:nth-child(3) {
+  background-image: url(https://th.bing.com/th/id/OIP.Ma0AwUMolTgs3Wt47Od-OwHaJQ?pid=ImgDet&rs=1); }
+
+.gallery__img6:nth-child(4) {
+  background-image: url(https://th.bing.com/th/id/OIP.Sh4RTOrbhWeLulXnn3E7PwHaKM?pid=ImgDet&rs=1); }
+
+/*fin de magalhaaes */
+/* richardlison */
+.gallery7 {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img7 {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery__img7::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img7:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img7:nth-child(1) {
+  background-image: url(https://cdn.readeverything.co/wp-content/uploads/sites/25/2019/08/1169989621.jpg); }
+
+.gallery__img7:nth-child(2) {
+  background-image: url(https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F0606%2Fr552862_1296x1296_1-1.jpg); }
+
+.gallery__img7:nth-child(3) {
+  background-image: url(https://i.pinimg.com/originals/b4/00/83/b400838922c2420dd1c4e5056cdd2fe1.jpg); }
+
+.gallery__img7:nth-child(4) {
+  background-image: url(https://healthyceleb.com/wp-content/uploads/2018/08/Richarlison-celebrating-the-victory-after-winning-a-match-at-Watford-United-Kingdom-in-2018.jpg); }
+
+/* fin de richard */
+/* raulg */
+.gallery8 {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img8 {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery__img8::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img8:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img8:nth-child(1) {
+  background-image: url(https://1.bp.blogspot.com/-pCQwM7lBiO8/XKYihDUGMcI/AAAAAAAAADc/gh6ruCuWQwk2ylzoatRM-me0lYT8JYSVgCLcBGAs/s1600/IMG_20190404_150011.jpg); }
+
+.gallery__img8:nth-child(2) {
+  background-image: url(https://th.bing.com/th/id/R.e1b2ecf309ebdb280e747f95700018b2?rik=3yzluwo8ppiXNg&riu=http%3a%2f%2fmedia.gettyimages.com%2fphotos%2fbenficas-forward-raul-jimenez-from-mexico-during-the-match-between-sl-picture-id630367806%3fs%3d612x612&ehk=D1HfrgjqB1BmX7t%2bCMK%2bg9N6fqmyaV3Z2TOVB%2b8T6Ts%3d&risl=&pid=ImgRaw&r=0); }
+
+.gallery__img8:nth-child(3) {
+  background-image: url(https://www.elsiglodetorreon.com.mx/m/i/2013/03/481920.jpeg); }
+
+.gallery__img8:nth-child(4) {
+  background-image: url(https://i.pinimg.com/originals/ee/d2/90/eed290bafa1a36e8c33834413214554a.jpg); }
+
+/* raulg  fin*/
+/* brigton */
+.gallery9 {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img9 {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery__img9::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img9:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img9:nth-child(1) {
+  background-image: url(https://i.dailymail.co.uk/1s/2021/02/21/20/39577746-9283835-Robert_Sanchez_has_been_a_regular_in_the_Brighton_starting_line_-m-25_1613941143628.jpg); }
+
+.gallery__img9:nth-child(2) {
+  background-image: url(https://th.bing.com/th/id/OIP.-1aU3fdC-j3HFJ747nL9cgHaLG?pid=ImgDet&rs=1); }
+
+.gallery__img9:nth-child(3) {
+  background-image: url(https://th.bing.com/th/id/OIP.Kf9ZUsF5xcLCDqgMUIILhAHaKX?pid=ImgDet&rs=1); }
+
+.gallery__img9:nth-child(4) {
+  background-image: url(https://resources.premierleague.com/premierleague/photos/players/250x250/p215059.png); }
+
+/* brigton fin */
+/* saka  */
+.gallery10 {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img10 {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery__img10::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img10:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img10:nth-child(1) {
+  background-image: url(https://www4.pictures.zimbio.com/gi/Crystal+Palace+v+Watford+Premier+League+XklgnKJnvslx.jpg); }
+
+.gallery__img10:nth-child(2) {
+  background-image: url(https://th.bing.com/th/id/R.a703c44d2d648c7a7ebdb1734c92a117?rik=mq3FcGnY8JBUrA&riu=http%3a%2f%2fwww4.pictures.zimbio.com%2fgi%2fManchester%2bUnited%2bv%2bWigan%2bAthletic%2bFA%2bCommunity%2bz0fPzYO5PxYx.jpg&ehk=uNKQOOlddINQRVa8rV4coFRLYwAL1NgNXRqcCf%2firSY%3d&risl=&pid=ImgRaw&r=0); }
+
+.gallery__img10:nth-child(3) {
+  background-image: url(https://inews-prd-a-images.s3.eu-west-2.amazonaws.com/content/uploads/2019/07/GettyImages-1155156048.jpg); }
+
+.gallery__img10:nth-child(4) {
+  background-image: url(https://th.bing.com/th/id/R.3499ba1c3c6a2a5db4502d3f5770717a?rik=2V0TXXO2YDRJFw&pid=ImgRaw&r=0); }
+
+/* saka fin */
+/* philin  */
+.gallery11 {
+  height: 680px;
+  width: 95%;
+  margin: 40px auto;
+  display: flex; }
+
+.gallery__img11 {
+  width: 80px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: flex .5s;
+  flex: 1;
+  display: grid;
+  --message:'';
+  --clip:circle (0 at center) ;
+  --transition:clip-path .2s ; }
+
+.gallery__img11::before {
+  content: var(--message);
+  display: grid;
+  place-items: center;
+  font-family: arial;
+  font-size: 2rem;
+  color: #fff;
+  clip-path: var(--clip);
+  transition: var(--transition); }
+
+.gallery__img11:hover {
+  height: 100%;
+  flex: 1.1;
+  --clip:circle (100% at center) ;
+  --transition:clip-path .4s .5s; }
+
+.gallery__img11:nth-child(1) {
+  background-image: url(https://d2oaeusgfvn7ra.cloudfront.net/900x600_/media/15484/tyrone-mings.jpg); }
+
+.gallery__img11:nth-child(2) {
+  background-image: url(https://media.gettyimages.com/photos/philip-billing-of-huddersfield-town-during-the-emirates-fa-cup-fourth-picture-id915278380); }
+
+.gallery__img11:nth-child(3) {
+  background-image: url(https://th.bing.com/th/id/R.3a78585693c84e7f426ab16a12ed2c45?rik=jbr%2b8GjZnWDwTg&riu=http%3a%2f%2fwww4.pictures.zimbio.com%2fgi%2fPhilip%2bBilling%2bBurnley%2bFC%2bvs%2bHuddersfield%2bBQ9U7d_kX8Vx.jpg&ehk=Us%2f9sp41lCR%2fgn6pFUF4zZJ0HtiaVMxOWY3CGbKG%2bQI%3d&risl=&pid=ImgRaw&r=0); }
+
+.gallery__img11:nth-child(4) {
+  background-image: url(https://i2-prod.examinerlive.co.uk/incoming/article11159106.ece/ALTERNATES/s1227b/JS82511172.jpg); }
+
+/* philin fin */
+/* h3 donde jugo el futbolista */
+.cr7 {
+  display: flex;
+  justify-content: center; }
+
+/* Footer */
+footer {
+  background-color: #9b0404; }
+
+.footer5 {
+  background-color: #cc0404; }
+
+.footer1 {
+  background-color: #5c83a3; }
+
+.footer2 {
+  background-color: #041c5a; }
+
+.footer3 {
+  background-color: #040496; }
+
+.footer3_1 {
+  background-color: #043c9b; }
+
+.footer4 {
+  background-color: #60223b; }
+
+.footer6 {
+  background-color: #8c141c; }
+
+.footer10 {
+  background-color: #0b59a0; }
+
+.footer11 {
+  background-image: linear-gradient(-45deg, #04246b 50%, #8c141b 50%); }
+
+.footer12 {
+  background-color: #1c2c54; }
+
+.footer13 {
+  background-image: linear-gradient(-45deg, #040404 50%, #cc8c04 50%); }
+
+.row {
+  background-color: #ecebec; }
+
+.barra23 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-color: #9b0404; }
+
+.fotter5 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-color: #cc0404; }
+
+.fotter6 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-color: #8c141c; }
+
+.fotterkevin {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-color: #5c83a3; }
+
+.fotterson {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-color: #041c5a; }
+
+.fotterkante {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-color: #040496; }
+
+.fotterkante_3 {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-color: #043c9b; }
+
+.fottercou {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-color: #60223b; }
+
+.fotterbrigton {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-color: #0b59a0; }
+
+.fottercrystal {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-image: linear-gradient(-4deg, #04246b 50%, #8c141b 50%); }
+
+.fottereverton {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-color: #1c2c54; }
+
+.fotterwolves {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  font-size: 25px;
+  background-image: linear-gradient(-10deg, #040404 50%, #cc8c04 50%); }
+
+.premier {
+  width: 160px;
+  margin-left: 1000px;
+  margin-top: -59px; }
+
+.btnnn {
+  font-size: 90%;
+  text-decoration: none;
+  color: #ffffff; }
+
+.parafo_final {
+  font-size: 90%;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 100px; }
+
+.parafo-end {
+  width: 150px; }
+
+/* fin footter */
+@media screen and (max-width: 1090px) {
+  #logodepremier {
+    margin-right: 500px; }
+  #barra {
+    flex-direction: column;
+    align-items: center; }
+  #noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .imgpng {
+    padding-top: 2px;
+    width: 185px;
+    border-radius: 30%;
+    margin-left: 0px; }
+  #buscador {
+    color: black;
+    background-color: #fff;
+    width: 260px;
+    margin-left: 10px;
+    height: 50px; }
+  /* Footer */
+  footer {
+    background-color: #9b0404; }
+  .footer1 {
+    background-color: #5c83a3; }
+  .footer2 {
+    background-color: #141c54; }
+  .row {
+    background-color: #ecebec; }
+  .barra {
+    display: flex;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #c70101;
+    height: 100px; }
+  .barra23 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    background-color: #9b0404; }
+  .barra5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    background-color: #b3141b; }
+  .barra6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    background-color: #ac040c; }
+  .barra7 {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 25px;
+    background-color: #9c0607; }
+  .fotterkevin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    background-color: #5c83a3; }
+  .fotterson {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    background-color: #141c54; }
+  .premier {
+    width: 160px;
+    margin-left: 390px;
+    margin-top: -59px; }
+  .btnnn {
+    font-size: 90%;
+    text-decoration: none;
+    color: #ffffff; }
+  .parafo_final {
+    font-size: 90%;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px; }
+  .parafo-end {
+    width: 150px; }
+  /* fin footter */ }
+
+/* blue */
+#vardy {
+  background-image: linear-gradient(-45deg, white 50%, white 50%); }
+
+#biografia1 {
+  background-image: linear-gradient(-45deg, white 50%, white 50%); }
+
+/* red */
+#rojo {
+  background-image: linear-gradient(-45deg, #ffffff 50%, white 50%); }
+
+.biografia1 {
+  background-image: linear-gradient(-45deg, white 50%, white 50%); }
+
+#son {
+  background-image: linear-gradient(-45deg, #ffffff 50%, white 50%); }
+
+.row {
+  width: 100%;
+  margin-left: 0.1px; }
+
+.col-md-4 .card-body {
+  background-color: #fff; }
+
+.biografia {
+  background-color: #fff; }
+
+#biografia {
+  background-color: #fff; }
+
+.noticias {
+  display: flex;
+  justify-content: center;
+  background-color: #ecebec; }
+
+/* plantilla */
+.container {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1contenido máximo 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". ." ". ." ". ." ". ." ". ." ". ."; }
