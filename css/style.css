@@ -557,9 +557,7 @@ tr:hover td {
     grid-auto-rows: 1fr;
     gap: 10px 20px;
     grid-auto-flow: row;
-    grid-template-areas: ". ."
- ". ."
- ". .";
+    grid-template-areas: ". ." ". ." ". .";
     margin-left: 100px; }
   .barra1 {
     background-color: #39043b;
@@ -574,9 +572,7 @@ tr:hover td {
     grid-auto-rows: 1fr;
     gap: 10px 20px;
     grid-auto-flow: row;
-    grid-template-areas: ". ."
- ". ."
- ". .";
+    grid-template-areas: ". ." ". ." ". .";
     margin-left: 80px; }
   /* barra */
   .barra {
@@ -595,7 +591,8 @@ tr:hover td {
     color: black;
     background-color: #fff;
     width: 220px;
-    margin-left: 30px; }
+    margin-left: 30px;
+    width: 600px; }
   /* fin de la barra */
   /* tabla */
   #main-container {
@@ -683,10 +680,10 @@ tr:hover td {
     width: 160px;
     margin-left: 20px;
     margin-top: -109px; }
-  #buscador {
+  .inputt {
     color: black;
     background-color: #fff;
-    width: 620px;
+    width: 1620px;
     margin-left: 80px; } }
 
 .main-container {
@@ -734,7 +731,7 @@ tr:hover td {
   height: 100px; }
 
 /* totteham */
-.barra2s {
+.barra2 {
   display: flex;
   padding-top: 20px;
   position: sticky;
@@ -1607,7 +1604,7 @@ footer {
   #buscador {
     color: black;
     background-color: #fff;
-    width: 260px;
+    width: 230px;
     margin-left: 10px;
     height: 50px; }
   /* Footer */
@@ -1730,9 +1727,4 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1contenido máximo 1fr 1fr;
   gap: 0px 0px;
-  grid-template-areas: ". ."
- ". ."
- ". ."
- ". ."
- ". ."
- ". ."; }
+  grid-template-areas: ". ." ". ." ". ." ". ." ". ." ". ."; }
