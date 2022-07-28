@@ -578,7 +578,7 @@ tr:hover td {
     grid-template-areas: ". ."
  ". ."
  ". .";
-    margin-left: 50px; }
+    margin-left: 90px; }
   /* barra */
   .barra {
     display: flex;
